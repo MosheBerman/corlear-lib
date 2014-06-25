@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468E1080195B04FF00BA2C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E107F195B04FF00BA2C56 /* Foundation.framework */; };
+		468E1085195B04FF00BA2C56 /* CRLCoreLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 468E1084195B04FF00BA2C56 /* CRLCoreLib.h */; };
+		468E1087195B04FF00BA2C56 /* CRLCoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E1086195B04FF00BA2C56 /* CRLCoreLib.m */; };
+		468E108E195B04FF00BA2C56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E108D195B04FF00BA2C56 /* XCTest.framework */; };
+		468E108F195B04FF00BA2C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E107F195B04FF00BA2C56 /* Foundation.framework */; };
+		468E1091195B04FF00BA2C56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E1090195B04FF00BA2C56 /* UIKit.framework */; };
+		468E1094195B04FF00BA2C56 /* libCRLCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E107C195B04FF00BA2C56 /* libCRLCoreLib.a */; };
+		468E109A195B04FF00BA2C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 468E1098195B04FF00BA2C56 /* InfoPlist.strings */; };
+		468E109C195B04FF00BA2C56 /* CRLCoreLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E109B195B04FF00BA2C56 /* CRLCoreLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		468E1092195B04FF00BA2C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468E1074195B04FF00BA2C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 468E107B195B04FF00BA2C56;
+			remoteInfo = CRLCoreLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		468E107A195B04FF00BA2C56 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				468E1085195B04FF00BA2C56 /* CRLCoreLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		468E107C195B04FF00BA2C56 /* libCRLCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCRLCoreLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		468E107F195B04FF00BA2C56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		468E1083195B04FF00BA2C56 /* CRLCoreLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRLCoreLib-Prefix.pch"; sourceTree = "<group>"; };
+		468E1084195B04FF00BA2C56 /* CRLCoreLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLCoreLib.h; sourceTree = "<group>"; };
+		468E1086195B04FF00BA2C56 /* CRLCoreLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLCoreLib.m; sourceTree = "<group>"; };
+		468E108C195B04FF00BA2C56 /* CRLCoreLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRLCoreLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		468E108D195B04FF00BA2C56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		468E1090195B04FF00BA2C56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		468E1097195B04FF00BA2C56 /* CRLCoreLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRLCoreLibTests-Info.plist"; sourceTree = "<group>"; };
+		468E1099195B04FF00BA2C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		468E109B195B04FF00BA2C56 /* CRLCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLCoreLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468E1079195B04FF00BA2C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E1080195B04FF00BA2C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468E1089195B04FF00BA2C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E108E195B04FF00BA2C56 /* XCTest.framework in Frameworks */,
+				468E1091195B04FF00BA2C56 /* UIKit.framework in Frameworks */,
+				468E1094195B04FF00BA2C56 /* libCRLCoreLib.a in Frameworks */,
+				468E108F195B04FF00BA2C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468E1073195B04FF00BA2C56 = {
+			isa = PBXGroup;
+			children = (
+				468E1081195B04FF00BA2C56 /* CRLCoreLib */,
+				468E1095195B04FF00BA2C56 /* CRLCoreLibTests */,
+				468E107E195B04FF00BA2C56 /* Frameworks */,
+				468E107D195B04FF00BA2C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468E107D195B04FF00BA2C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468E107C195B04FF00BA2C56 /* libCRLCoreLib.a */,
+				468E108C195B04FF00BA2C56 /* CRLCoreLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468E107E195B04FF00BA2C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468E107F195B04FF00BA2C56 /* Foundation.framework */,
+				468E108D195B04FF00BA2C56 /* XCTest.framework */,
+				468E1090195B04FF00BA2C56 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		468E1081195B04FF00BA2C56 /* CRLCoreLib */ = {
+			isa = PBXGroup;
+			children = (
+				468E1084195B04FF00BA2C56 /* CRLCoreLib.h */,
+				468E1086195B04FF00BA2C56 /* CRLCoreLib.m */,
+				468E1082195B04FF00BA2C56 /* Supporting Files */,
+			);
+			path = CRLCoreLib;
+			sourceTree = "<group>";
+		};
+		468E1082195B04FF00BA2C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468E1083195B04FF00BA2C56 /* CRLCoreLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		468E1095195B04FF00BA2C56 /* CRLCoreLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				468E109B195B04FF00BA2C56 /* CRLCoreLibTests.m */,
+				468E1096195B04FF00BA2C56 /* Supporting Files */,
+			);
+			path = CRLCoreLibTests;
+			sourceTree = "<group>";
+		};
+		468E1096195B04FF00BA2C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468E1097195B04FF00BA2C56 /* CRLCoreLibTests-Info.plist */,
+				468E1098195B04FF00BA2C56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468E107B195B04FF00BA2C56 /* CRLCoreLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468E109F195B04FF00BA2C56 /* Build configuration list for PBXNativeTarget "CRLCoreLib" */;
+			buildPhases = (
+				468E1078195B04FF00BA2C56 /* Sources */,
+				468E1079195B04FF00BA2C56 /* Frameworks */,
+				468E107A195B04FF00BA2C56 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRLCoreLib;
+			productName = CRLCoreLib;
+			productReference = 468E107C195B04FF00BA2C56 /* libCRLCoreLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		468E108B195B04FF00BA2C56 /* CRLCoreLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468E10A2195B04FF00BA2C56 /* Build configuration list for PBXNativeTarget "CRLCoreLibTests" */;
+			buildPhases = (
+				468E1088195B04FF00BA2C56 /* Sources */,
+				468E1089195B04FF00BA2C56 /* Frameworks */,
+				468E108A195B04FF00BA2C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468E1093195B04FF00BA2C56 /* PBXTargetDependency */,
+			);
+			name = CRLCoreLibTests;
+			productName = CRLCoreLibTests;
+			productReference = 468E108C195B04FF00BA2C56 /* CRLCoreLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468E1074195B04FF00BA2C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Corlear Apps";
+			};
+			buildConfigurationList = 468E1077195B04FF00BA2C56 /* Build configuration list for PBXProject "CRLCoreLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 468E1073195B04FF00BA2C56;
+			productRefGroup = 468E107D195B04FF00BA2C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468E107B195B04FF00BA2C56 /* CRLCoreLib */,
+				468E108B195B04FF00BA2C56 /* CRLCoreLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468E108A195B04FF00BA2C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E109A195B04FF00BA2C56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468E1078195B04FF00BA2C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E1087195B04FF00BA2C56 /* CRLCoreLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468E1088195B04FF00BA2C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E109C195B04FF00BA2C56 /* CRLCoreLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		468E1093195B04FF00BA2C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 468E107B195B04FF00BA2C56 /* CRLCoreLib */;
+			targetProxy = 468E1092195B04FF00BA2C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		468E1098195B04FF00BA2C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468E1099195B04FF00BA2C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468E109D195B04FF00BA2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		468E109E195B04FF00BA2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468E10A0195B04FF00BA2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CRLCoreLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		468E10A1195B04FF00BA2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CRLCoreLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		468E10A3195B04FF00BA2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CRLCoreLibTests/CRLCoreLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		468E10A4195B04FF00BA2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
+				INFOPLIST_FILE = "CRLCoreLibTests/CRLCoreLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468E1077195B04FF00BA2C56 /* Build configuration list for PBXProject "CRLCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468E109D195B04FF00BA2C56 /* Debug */,
+				468E109E195B04FF00BA2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468E109F195B04FF00BA2C56 /* Build configuration list for PBXNativeTarget "CRLCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468E10A0195B04FF00BA2C56 /* Debug */,
+				468E10A1195B04FF00BA2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		468E10A2195B04FF00BA2C56 /* Build configuration list for PBXNativeTarget "CRLCoreLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468E10A3195B04FF00BA2C56 /* Debug */,
+				468E10A4195B04FF00BA2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468E1074195B04FF00BA2C56 /* Project object */;
+}
