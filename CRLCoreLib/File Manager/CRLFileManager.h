@@ -16,4 +16,10 @@
 
 + (instancetype)sharedManager;
 
+/**
+ *  @return The path to the application's documents directory.
+ */
+
+- (NSString *)pathForApplicationDocumentsDirectory;
+
 @end

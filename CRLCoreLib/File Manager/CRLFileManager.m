@@ -26,5 +26,14 @@
     return manager;
 }
 
+/**
+ *  @return The path to the application's documents directory.
+ */
 
+- (NSString *)pathForApplicationDocumentsDirectory
+{
+    NSURL *url = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSAllDomainsMask] firstObject];
+    
+    return [url path];
+}
 @end
