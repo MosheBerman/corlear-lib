@@ -20,10 +20,9 @@
  *  Downloads the data at a URL to a given path and then calls a completion block.
  *
  *  @param url A URL to download from.
- *  @param path A local path to save to. Use the CRLFileManager to get a path to work with.
+ *  @param path A local path to save to. Use the CRLFileManager class to get a path to work with.
  *  @param completion A completion block that runs after the data is downloaded and saved.
  *
- *  @see CRLFileManager
  */
 
 - (void)downloadDataAtURL:(NSURL *)url toPath:(NSString *)path withCompletion:(void(^)(BOOL success))completion;
