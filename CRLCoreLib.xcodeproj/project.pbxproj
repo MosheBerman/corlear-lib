@@ -16,6 +16,9 @@
 		468E1094195B04FF00BA2C56 /* libCRLCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E107C195B04FF00BA2C56 /* libCRLCoreLib.a */; };
 		468E109A195B04FF00BA2C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 468E1098195B04FF00BA2C56 /* InfoPlist.strings */; };
 		468E109C195B04FF00BA2C56 /* CRLCoreLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E109B195B04FF00BA2C56 /* CRLCoreLibTests.m */; };
+		468E10A7195B051A00BA2C56 /* CRLDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E10A6195B051A00BA2C56 /* CRLDataManager.m */; };
+		468E10AA195B052F00BA2C56 /* CRLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E10A9195B052F00BA2C56 /* CRLNetworkManager.m */; };
+		468E10AD195B053F00BA2C56 /* CRLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E10AC195B053F00BA2C56 /* CRLFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		468E1097195B04FF00BA2C56 /* CRLCoreLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRLCoreLibTests-Info.plist"; sourceTree = "<group>"; };
 		468E1099195B04FF00BA2C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		468E109B195B04FF00BA2C56 /* CRLCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLCoreLibTests.m; sourceTree = "<group>"; };
+		468E10A5195B051A00BA2C56 /* CRLDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLDataManager.h; path = "Data Manager/CRLDataManager.h"; sourceTree = "<group>"; };
+		468E10A6195B051A00BA2C56 /* CRLDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLDataManager.m; path = "Data Manager/CRLDataManager.m"; sourceTree = "<group>"; };
+		468E10A8195B052F00BA2C56 /* CRLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLNetworkManager.h; path = "Network Manager/CRLNetworkManager.h"; sourceTree = "<group>"; };
+		468E10A9195B052F00BA2C56 /* CRLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLNetworkManager.m; path = "Network Manager/CRLNetworkManager.m"; sourceTree = "<group>"; };
+		468E10AB195B053F00BA2C56 /* CRLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLFileManager.h; path = "File Manager/CRLFileManager.h"; sourceTree = "<group>"; };
+		468E10AC195B053F00BA2C56 /* CRLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLFileManager.m; path = "File Manager/CRLFileManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,12 @@
 			children = (
 				468E1084195B04FF00BA2C56 /* CRLCoreLib.h */,
 				468E1086195B04FF00BA2C56 /* CRLCoreLib.m */,
+				468E10A5195B051A00BA2C56 /* CRLDataManager.h */,
+				468E10A6195B051A00BA2C56 /* CRLDataManager.m */,
+				468E10A8195B052F00BA2C56 /* CRLNetworkManager.h */,
+				468E10A9195B052F00BA2C56 /* CRLNetworkManager.m */,
+				468E10AB195B053F00BA2C56 /* CRLFileManager.h */,
+				468E10AC195B053F00BA2C56 /* CRLFileManager.m */,
 				468E1082195B04FF00BA2C56 /* Supporting Files */,
 			);
 			path = CRLCoreLib;
@@ -225,6 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				468E1087195B04FF00BA2C56 /* CRLCoreLib.m in Sources */,
+				468E10AA195B052F00BA2C56 /* CRLNetworkManager.m in Sources */,
+				468E10A7195B051A00BA2C56 /* CRLDataManager.m in Sources */,
+				468E10AD195B053F00BA2C56 /* CRLFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
