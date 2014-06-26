@@ -22,4 +22,16 @@
 
 - (NSString *)pathForApplicationDocumentsDirectory;
 
+/**
+ *  @return The path to the application's caches directory.
+ */
+
+- (NSString *)pathForApplicationCachesDirectory;
+
+/**
+ *  @return The path to the application's library directory.
+ */
+
+- (NSString *)pathForApplicationLibraryDirectory;
+
 @end

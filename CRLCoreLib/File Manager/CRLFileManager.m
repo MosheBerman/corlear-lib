@@ -36,4 +36,28 @@
     
     return [url path];
 }
+
+/**
+ *  @return The path to the application's caches directory.
+ */
+
+- (NSString *)pathForApplicationCachesDirectory
+{
+    NSURL *url = [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSAllDomainsMask] firstObject];
+    
+    return [url path];
+}
+
+/**
+ *  @return The path to the application's library directory.
+ */
+
+- (NSString *)pathForApplicationLibraryDirectory
+{
+    NSURL *url = [[[NSFileManager defaultManager] URLsForDirectory:NSLibraryDirectory inDomains:NSAllDomainsMask] firstObject];
+    
+    return [url path];
+}
+
+
 @end
