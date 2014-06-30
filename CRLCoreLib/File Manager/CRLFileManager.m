@@ -59,5 +59,18 @@
     return [url path];
 }
 
+/**
+ *  Writes the given data to the supplied path.
+ *  @return YES if the write was successful, else NO.
+ */
 
+- (BOOL)writeData:(NSData *)data toPath:(NSString *)path
+{
+    BOOL saved = NO;
+    
+    if (data) {
+        saved = [data writeToFile:path atomically:YES];
+    }
+    return saved;
+}
 @end

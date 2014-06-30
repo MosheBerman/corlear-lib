@@ -34,4 +34,11 @@
 
 - (NSString *)pathForApplicationLibraryDirectory;
 
+/**
+ *  Writes the given data to the supplied path.
+ *  @return YES if the write was successful, else NO.
+ */
+
+- (BOOL)writeData:(NSData *)data toPath:(NSString *)path;
+
 @end
