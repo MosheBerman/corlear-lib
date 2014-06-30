@@ -53,4 +53,26 @@
     }];
 }
 
+/**
+ *  Downloads the data at a URL and passes it to a completion block.
+ *
+ *  @param url A URL to download from.
+ *  @param completion A completion block that runs after the data is downloaded and saved.
+ *
+ */
+
+- (void)downloadDataAtURL:(NSURL *)url withCompletion:(void(^)(NSData *data))completion
+{
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        
+        if (completion) {
+            completion(data);
+        }
+    }];
+}
+
+
+
 @end

@@ -27,4 +27,14 @@
 
 - (void)downloadDataAtURL:(NSURL *)url toPath:(NSString *)path withCompletion:(void(^)(BOOL success))completion;
 
+/**
+ *  Downloads the data at a URL and passes it to a completion block.
+ *
+ *  @param url A URL to download from.
+ *  @param completion A completion block that runs after the data is downloaded and saved.
+ *
+ */
+
+- (void)downloadDataAtURL:(NSURL *)url withCompletion:(void(^)(NSData *data))completion;
+
 @end
