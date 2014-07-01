@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464BBEF519619B7000321590 /* CRLDataManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 468E10A5195B051A00BA2C56 /* CRLDataManager.h */; };
+		464BBEF619619B7000321590 /* CRLNetworkManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 468E10A8195B052F00BA2C56 /* CRLNetworkManager.h */; };
+		464BBEF719619B7000321590 /* CRLFileManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 468E10AB195B053F00BA2C56 /* CRLFileManager.h */; };
 		468E1080195B04FF00BA2C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468E107F195B04FF00BA2C56 /* Foundation.framework */; };
 		468E1085195B04FF00BA2C56 /* CRLCoreLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 468E1084195B04FF00BA2C56 /* CRLCoreLib.h */; };
 		468E1087195B04FF00BA2C56 /* CRLCoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 468E1086195B04FF00BA2C56 /* CRLCoreLib.m */; };
@@ -38,6 +41,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				464BBEF519619B7000321590 /* CRLDataManager.h in CopyFiles */,
+				464BBEF619619B7000321590 /* CRLNetworkManager.h in CopyFiles */,
+				464BBEF719619B7000321590 /* CRLFileManager.h in CopyFiles */,
 				468E1085195B04FF00BA2C56 /* CRLCoreLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,24 +353,29 @@
 		468E10A0195B04FF00BA2C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/CRLCoreLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		468E10A1195B04FF00BA2C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/CRLCoreLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRLCoreLib/CRLCoreLib-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -423,6 +434,7 @@
 				468E10A1195B04FF00BA2C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		468E10A2195B04FF00BA2C56 /* Build configuration list for PBXNativeTarget "CRLCoreLibTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +443,7 @@
 				468E10A4195B04FF00BA2C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
